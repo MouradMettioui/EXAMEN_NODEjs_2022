@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+            <h1>Encoder les données de la pièce</h1>
+            <form action="/article/add" method="POST">
+            <span>Article:</span>
+            <input class="input" type="text" name="article" value="" /><br />
+            <span>nombre:</span> 
+            <input class="input" type="text" name="nombre" value="" /><br />
+            <input type="hidden" name="id" value="" />
+            <input class="bouton" type="submit" name="save" value="Enregistrer" /><br />
+            
+        </form>
+        <form>
+            <input class="bouton" type="submit" value="Retour à la Liste" formaction="/">
+        </form>
+    </body>
+</html>
